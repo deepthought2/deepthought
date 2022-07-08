@@ -1,0 +1,44 @@
+     voters  propositions  accuracy  adv_control  prop_corrupted  target_corrupted  elapsed_time
+1        20           100      0.80         0.00               0                 0       1987.05
+2        20           100      0.80         0.00               1                 0       1897.43
+3        20           100      0.80         0.00               0                 0       1964.10
+4        20           100      0.80         0.00               0                 0       1936.72
+5        20           100      0.80         0.00               0                 0       2457.12
+..      ...           ...       ...          ...             ...               ...           ...
+262      20           100      0.95         0.45              36                 1        793.76
+263      20           100      0.95         0.45              38                 0        769.08
+264      20           100      0.95         0.45              40                 0        799.97
+265      20           100      0.95         0.45              38                 0        773.42
+266      20           100      0.95         0.45              40                 1        796.30
+
+[266 rows x 7 columns]
+
+CASE 1:
+voters : 20.0, propositions : 100.0, accuracy : 0.8, adv_control : 0.0, specific_target_corrupted_perc 0.0, prop_corrupted_avg : 0.06666666666666667, prop_corrupted_std :  0.2537081317024625, prop_corrupted_min :  0, prop_corrupted_max :  1, num_test :  30
+
+CASE 2:
+voters : 20.0, propositions : 100.0, accuracy : 0.8, adv_control : 0.05, specific_target_corrupted_perc 0.0, prop_corrupted_avg : 0.2682926829268293, prop_corrupted_std :  0.6334189073552525, prop_corrupted_min :  0, prop_corrupted_max :  3, num_test :  41
+
+CASE 3:
+voters : 20.0, propositions : 100.0, accuracy : 0.8, adv_control : 0.25, specific_target_corrupted_perc 0.14285714285714285, prop_corrupted_avg : 13.885714285714286, prop_corrupted_std :  2.7307769694983985, prop_corrupted_min :  9, prop_corrupted_max :  24, num_test :  35
+
+CASE 4:
+voters : 20.0, propositions : 100.0, accuracy : 0.95, adv_control : 0.0, specific_target_corrupted_perc 0.0, prop_corrupted_avg : 0.0, prop_corrupted_std :  0.0, prop_corrupted_min :  0, prop_corrupted_max :  0, num_test :  20
+
+CASE 5:
+voters : 20.0, propositions : 100.0, accuracy : 0.95, adv_control : 0.05, specific_target_corrupted_perc 0.0, prop_corrupted_avg : 0.0, prop_corrupted_std :  0.0, prop_corrupted_min :  0, prop_corrupted_max :  0, num_test :  35
+
+CASE 6:
+voters : 20.0, propositions : 100.0, accuracy : 0.95, adv_control : 0.25, specific_target_corrupted_perc 0.08, prop_corrupted_avg : 2.4, prop_corrupted_std :  1.35400640077266, prop_corrupted_min :  0, prop_corrupted_max :  5, num_test :  25
+
+CASE 7:
+voters : 20.0, propositions : 100.0, accuracy : 0.8, adv_control : 0.35, specific_target_corrupted_perc 0.35, prop_corrupted_avg : 36.4, prop_corrupted_std :  4.121828924665667, prop_corrupted_min :  31, prop_corrupted_max :  46, num_test :  20
+
+CASE 8:
+voters : 20.0, propositions : 100.0, accuracy : 0.95, adv_control : 0.35, specific_target_corrupted_perc 0.05, prop_corrupted_avg : 12.9, prop_corrupted_std :  2.314712668311578, prop_corrupted_min :  9, prop_corrupted_max :  19, num_test :  20
+
+CASE 9:
+voters : 20.0, propositions : 100.0, accuracy : 0.8, adv_control : 0.45, specific_target_corrupted_perc 0.7, prop_corrupted_avg : 60.6, prop_corrupted_std :  2.3929721664644754, prop_corrupted_min :  57, prop_corrupted_max :  66, num_test :  20
+
+CASE 10:
+voters : 20.0, propositions : 100.0, accuracy : 0.95, adv_control : 0.45, specific_target_corrupted_perc 0.35, prop_corrupted_avg : 37.7, prop_corrupted_std :  2.735728518386974, prop_corrupted_min :  32, prop_corrupted_max :  45, num_test :  20
